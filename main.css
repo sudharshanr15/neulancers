@@ -1,0 +1,35 @@
+body{
+    min-height: 100vh;
+    max-height: 100vh;
+    background-color: #266382;
+    overflow: hidden;
+}
+
+main{
+    height: 100vh;
+}
+
+.main-content{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content > .content-title{
+    font-size: 6rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: -5px 0 #266382, 0 5px #266382, 5px 0 #266382, 0 -5px #266382, 0px 20px 30px rgba(0, 0, 0, 1), 0px 40px 30px rgba(0, 0, 0, 0.8), 0px 60px 30px rgba(0, 0, 0, 0.4), 0px 80px 30px rgba(0, 0, 0, 0.2);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.background-image{
+    background: url("/assets/images/clouds.png");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
